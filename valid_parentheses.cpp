@@ -25,7 +25,7 @@ bool isValid(string s) {
             st.pop();
         }
     }
-
+    if(!st.empty()) return false;
     return true;
 }
 
